@@ -18,7 +18,11 @@ public class HelloWorld {
 	public void hello(){
 		System.out.println("hello " + name);
 	}
-	
-	
+
+	@Override
+	public String toString() {
+		return "HelloWorld [name=" + name + "]";
+	}
+		
 
 }
