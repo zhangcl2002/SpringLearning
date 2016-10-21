@@ -39,7 +39,6 @@ public class SpringlearningApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... arg0) throws Exception {
-		System.out.println(helloworld);
-		
+		System.out.println(helloworld);		
 	}
 }
